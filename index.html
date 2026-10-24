@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Great Goal Academy </title>
+  
+  <!-- Offline & Online Icon Support -->
+  <link rel="stylesheet" href="icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Presentation Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="presentation-app">
+    <!-- Top Animated Slide Progress Bar -->
+    <div class="progress-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <!-- Ambient Glow Effects -->
+    <div class="ambient-glow-1"></div>
+    <div class="ambient-glow-2"></div>
+
+    <!-- Particle Starfield Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ==========================================
+         TOP BROADCAST HEADER
+         ========================================== -->
+    <header class="tv-header">
+      <div class="brand-wrapper">
+        <div class="brand-logo-frame">
+          <img src="logo.png" alt="GGA Logo" class="brand-logo-img" onerror="this.style.display='none'">
+        </div>
+        <div class="brand-text">
+          <h1>GREAT GOAL ACADEMY</h1>
+          <p>Oliy Toifali Ustozlar Markazi • Koson tumani</p>
+        </div>
+      </div>
+
+      <div class="header-center-info">
+        <div class="live-badge">
+          <div class="live-dot"></div>
+          <span>EFIRDA</span>
+        </div>
+        <div id="slide-category" class="slide-category-pill">O'QUV MARKAZI TAQDIMOTI</div>
+      </div>
+
+      <div class="header-right-meta">
+        <div class="tv-clock">
+          <div id="clock-time" class="clock-time">12:00:00</div>
+          <div id="clock-date" class="clock-date">Seshanba, 20-Oktyabr 2026</div>
+        </div>
+
+        <div class="slide-counter">
+          <span id="slide-current-num" class="slide-current">01</span>
+          <span class="slide-total">/</span>
+          <span id="slide-total-num" class="slide-total">11</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==========================================
+         MAIN PRESENTATION STAGE (SLIDES)
+         ========================================== -->
+    <main id="slide-stage" class="stage-container">
+      <!-- Slides will be injected dynamically by app.js -->
+    </main>
+
+    <!-- Slide Navigation Dots (Subtle indicator) -->
+    <div id="dots-container" class="dots-drawer"></div>
+
+    <!-- ==========================================
+         BOTTOM RUNNING TICKER & TV CONTROLS
+         ========================================== -->
+    <footer class="tv-footer-ticker">
+      <div class="ticker-label-pill">
+        <i class="bi bi-megaphone-fill"></i>
+        <span>E'LONLAR</span>
+      </div>
+
+      <div class="ticker-track">
+        <div id="ticker-content" class="ticker-content">
+          🔥 DIQQAT: Yangi o‘quv mavsumi uchun guruhlarga qabul davom etmoqda! • 🎯 Matematika, SAT Math, Ingliz tili (IELTS / CEFR), Arab tili, Tarix va Huquqshunoslik • 🏆 Oliy toifali va xalqaro sertifikatli ustozlar jamoasi • ⚡️ Joylar soni chegaralangan! • 📞 Aloqa: +998 (50) 404-05-04 | Telegram: @greatgoalacademy
+        </div>
+      </div>
+
+      <!-- TV Remote / Playback Controls Dock -->
+      <div class="controls-dock">
+        <button id="btn-prev" class="ctrl-btn" title="Oldingi slayd (←)">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button id="btn-play-pause" class="ctrl-btn" title="To'xtatish (Space)">
+          <i class="bi bi-pause-fill"></i>
+        </button>
+        <button id="btn-next" class="ctrl-btn" title="Keyingi slayd (→)">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+        
+        <select id="speed-select" class="speed-select" title="Slayd vaqti">
+          <option value="8000">8s</option>
+          <option value="11000" selected>11s</option>
+          <option value="15000">15s</option>
+          <option value="20000">20s</option>
+        </select>
+
+        <button id="btn-fullscreen" class="ctrl-btn" title="To'liq ekran (F)">
+          <i class="bi bi-fullscreen"></i>
+        </button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Data and Application Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

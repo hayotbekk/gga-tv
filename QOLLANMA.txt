@@ -1,0 +1,55 @@
+========================================================================
+   GGA - GREAT GOAL ACADEMY
+   TELEVIZOR UCHUN DOIMIY VA INTERAKTIV PREZENTATSIYA QO'LLANMASI
+   Yangi dizayn uslubi: Dark Slate Navy (#111729) + Zumrad Yashil (#55b685)
+========================================================================
+
+Ushbu taqdimot televizor va monitorlarda to'xtovsiz, silliq va zamonaviy 
+animatsiyalar bilan 24/7 rejimida namoyish etib turish uchun maxsus tayyorlandi.
+Yangi "taqdimot2" talablariga asosan to'liq zamonaviy qorong'i (dark) mavzuga
+o'tkazildi.
+
+1. QANDAY ISHGA TUSHIRILADI?
+------------------------------------------------------------------------
+- 1-usul (Juda oson): Papkadagi "Ishga_tushirish.command" faylini 2 marta bosing.
+- 2-usul: "index.html" faylini istalgan brauzerda (Chrome, Safari, Edge) oching.
+- To'liq ekran qilish: Klaviaturadagi "F" tugmasini bosing yoki sichqoncha bilan ekranga 2 marta bosing.
+
+2. BOSHQARUV TUGMALARI (Pult yoki klaviatura orqali):
+------------------------------------------------------------------------
+- Probel (Space)     : Slaydni to'xtatish (pauza) yoki davom ettirish
+- O'ngga strelka (→) : Keyingi slayd
+- Chapga strelka (←) : Oldingi slayd
+- F harfi             : To'liq ekran rejimiga o'tish / chiqish
+- 1 dan 9 gacha       : To'g'ridan-to'g'ri kerakli slaydga o'tish
+
+3. YANGILANGAN SLAYDLAR RO'YXATI (13 ta slayd):
+------------------------------------------------------------------------
+1. Asosiy kirish (GGA Academy, rasmiy logo, statistika, 100% A+ natijadorlik)
+2. Oliy Toifali Ustozlar jamoasi (Umumiy 9 nafar ustoz, zamonaviy 3x3 kartochkalar)
+3. Sardor Sobirov — Matematika va SAT bo'yicha yetakchi mutassis va murabbiy (A+ Daraja, 7 Yil)
+4. Mahliyo Sayfiyeva — Ona tili va adabiyot fani oliy toifali mutaxassisi (A+ Daraja, 5 Yil)
+5. Nodir Choriyev — Tarix va Huquq fanlari oliy toifali metodisti (A+ Daraja, 5 Yil)
+6. Shuxrat Hasanov — Kimyo va Biologiya fanlari tajribali pedagogi (A+ Daraja, 7 Yil)
+7. Azizbek Gadoyev — Ingliz tili va IELTS bo'yicha ekspert murabbiy (IELTS 8.5+, 5+ Yil)
+8. Hayot Abdiraximov — Kompyuter savodxonligi va Frontend dasturlash ustozi (Frontend, 2 Yil)
+9. Aziz Saidniyozov — Ingliz tili va xalqaro baholash bo'yicha murabbiy (CEFR B2, 3 Yil)
+10. Shalola Akmalovna — Arab tili va Ingliz tili oliy ma'lumotli tarjimoni (CEFR B2, 4 Yil)
+11. Daler Aliyev — Matematika va Prezident maktablariga tayyorlov ustozi (Prezident Maktabi, 4 Yil)
+12. GGA Afzalliklari — Nima uchun aynan biz? (6 ta asosiy ustun)
+13. Bog'lanish va Qabul markazi (Telefonlar, Telegram, Instagram, Manzil, Haqiqiy QR-kod)
+
+4. MATNLARNI YOKI SOZLAMALARNI O'ZGARTIRISH:
+------------------------------------------------------------------------
+- Barcha ma'lumotlar "data.js" faylida saqlanadi.
+- Telefon raqamlar, telegram manzili, o'qituvchilar ma'lumotlarini 
+  oddiy matn muharririda ochib o'zgartirishingiz mumkin.
+- Slaydlar vaqti sukut bo'yicha 11 soniya qilib belgilangan (pastki o'ng
+  burchakdagi menyudan 8s, 11s, 15s yoki 20s ga o'zgartirish mumkin).
+
+5. INTERNETSIZ (100% OFFLINE) ISHLAYDI:
+------------------------------------------------------------------------
+- Barcha shriftlar, piktogrammalar (icons), rasmlar va animatsiyalar lokal
+  papka ichida joylashgan.
+- Ushbu papkani bemalol USB fleshkaga ko'chirib olib, televizorga ulangan
+  har qanday mini-PC yoki Smart TV ga qo'yib ishlatishingiz mumkin!
